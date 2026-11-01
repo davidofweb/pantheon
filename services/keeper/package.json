@@ -8,7 +8,7 @@
     "node": ">=24.12"
   },
   "scripts": {
-    "start": "node --env-file-if-exists=.env src/main.ts",
+    "start": "node init && node --env-file-if-exists=.env src/main.ts",
     "once": "node --env-file-if-exists=.env scripts/once.ts",
     "test": "vitest run",
     "test:watch": "vitest",

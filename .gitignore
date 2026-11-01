@@ -12,8 +12,6 @@ out/
 /broadcast/**/dry-run/
 
 # Dotenv file
-.env
-.env.*
 !.env.example
 broadcast/
 node_modules/
@@ -28,3 +26,4 @@ keys/
 # Dev-only chain state (the private anvil copy of testnet)
 deployments/local.json
 deployments/dev-*.json
+config.bat
